@@ -1,0 +1,187 @@
+body {
+    background-image: linear-gradient(45deg, rgb(161, 201, 239), white);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+
+    margin: 150px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+nav a:hover {
+    text-shadow: 0px 5px 15px rgb(24, 154, 219);
+    transition: text-shadow 0.2s;
+}
+
+hr {
+    border: solid 1px;
+    margin: 0px;
+}
+
+.left {}
+
+.right {}
+
+table {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.left1 img {
+    width: 430px;
+    height: 846px;
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53);
+    border-radius: 30px;
+
+}
+
+.left2 img {
+    width: 430px;
+    height: 846px;
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53);
+    border-radius: 30px;
+}
+
+.right img {
+    width: 900px;
+    height: 390px;
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53);
+    border-radius: 30px;
+}
+
+.details td {
+    border: 1px solid blue;
+    padding: 10px 20px;
+    font-size: 30px;
+
+}
+
+.form1 {
+    padding: 10px;
+    padding-bottom: 90px;
+
+}
+
+.rights {
+    text-align: center;
+    margin: auto;
+
+    font-size: 30px;
+}
+
+td {
+    padding: 10px 0px;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'] {
+    font-size: 25px;
+}
+
+input[type='reset'],
+button {
+    font-size: 25px;
+    margin: 10px;
+    padding: 0px 90px;
+
+}
+
+.input-container {
+    width: 100px
+}
+
+.tag {
+    width: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.img-container {
+    margin: 100px 250px;
+    text-align: center;
+}
+
+.kit {
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53);
+    border-radius: 30px;
+    border: 5px solid rgb(161, 201, 239);
+}
+
+.kit:hover {
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53), rgba(3, 16, 29, 0.53) 5px 5px 10px, rgba(3, 16, 29, 0.53) 0px 0px 20px;
+    transition: box-shadow 0.2s;
+
+}
+
+
+.adopt-p {
+    font-size: 35px;
+    margin: 100px 200px;
+    line-height: 2;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cat-contain {
+    text-align: center;
+}
+
+.adopted {
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(3, 16, 29, 0.53);
+    border-radius: 30px;
+    border: 5px solid rgb(161, 201, 239);
+
+}
+
+.details1 td {
+    border: 1px solid blue;
+    font-size: 30px;
+    width: fit-content;
+}
+
+
+
+.adoptee {
+    font-size: 25px;
+    line-height: 0;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(3, 84, 178);
+    text-decoration: none;
+    font-weight: 700;
+}

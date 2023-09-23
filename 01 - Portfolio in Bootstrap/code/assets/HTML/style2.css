@@ -1,0 +1,32 @@
+body {
+    margin: 50px;
+    padding: 50px;
+    background-image: url(assets/images/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 6px 10px;
+    text-align: center;
+    font-family: consolas;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    width: max-content;
+    margin: auto;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+img {
+width: 600px;
+height: auto;
+}
+h2,p{
+    text-align: left;
+}
