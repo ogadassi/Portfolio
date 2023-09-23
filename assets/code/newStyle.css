@@ -1,0 +1,148 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+
+    background-image: linear-gradient(45deg, rgb(161, 201, 239), white);
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10% 5% 82% 3%;
+
+    border: 2px solid;
+}
+
+.container>* {
+    border: 1px solid;
+}
+
+header {
+    grid-column: span 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+nav {
+    grid-column: span 4;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    font-size: 3vh;
+}
+
+nav a {
+    color: rgb(3, 84, 178);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    text-shadow: 0px 5px 15px rgb(24, 154, 219);
+    transition: text-shadow 0.3s;
+}
+
+main {
+    grid-column: span 4;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.left {
+    grid-row: span 2;
+
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+    width: 43vh;
+    height: 79.5vh;
+    margin: 5px;
+}
+
+.right {
+    grid-column: 3 / span 2;
+
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+    width: 87vh;
+    height: 39vh;
+    margin: 5px;
+}
+
+.details {
+    grid-column: 3 / span 2;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    width: 98%;
+    height: 97%;
+    padding: 5px;
+    margin-left: 3px;
+}
+
+.details>* {
+    margin: 2px;
+    border: solid 1px blue;
+    font-size: 35px;
+    align-self: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer {
+    grid-column: span 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+footer h2 {
+    font-weight: 100;
+}
+
+.input {
+    grid-column: 2 / span 3;
+
+}
+
+input[type="email"],
+input[type="text"] {
+    height: 24px;
+    width: 97%;
+    font-size: 20px;
+}
+
+input[type="reset"],
+button {
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}

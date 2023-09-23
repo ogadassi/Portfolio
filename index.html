@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohad Gadassi's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" target="_blank"
+                href="https://open.spotify.com/artist/1N6NrGnb6Pyv8lOAM5lUlu?si=Yy1p4GmjQRuiwooJDxWnug&nd=1"><img
+                    src="assets/imgs/Logo.png" width="95px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio.html">Bio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Websites
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" target="_blank" href="assets/code/index.html">Cutest Kittens Ever</a></li>
+                            <li><a class="dropdown-item" target="_blank" href="https://ogadassi.github.io/minesweeper-sprint1/">Mine-Sweeper</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank" href="https://github.com/ogadassi?tab=repositories">Git-Hub</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="row justify-content-center">
+        <img class="img col-7 col-sm-4 col-lg-3 col-xxl-1 border border-5 border-success rounded-5"
+            src="assets/imgs/WhatsApp Image 2023-07-15 at 22.07.52.jpg">
+
+        <div class="name fst-italic col-7 col-sm-3 col-lg-2 col-xxl-1 border-start border-5 border-success rounded-5">
+            Ohad <br>Gadassi</div>
+
+        <div
+            class="lang fst-italic col-9 col-lg-5 col-xxl-3 border border-3 border-success bg-success-subtle rounded-5 justify-content-center-lg">
+            <ul> <span>Proficient at</span>
+                <li><a class="link-dark link-offset-2 link-underline link-underline-opacity-0 link-opacity-50-hover"
+                       target="_blank" href="assets/HTML/js.html">JavaScript</a></li>
+                <li><a class="link-dark link-offset-2 link-underline link-underline-opacity-0 link-opacity-50-hover"
+                    target="_blank"  href="assets/HTML/html.html">HTML5</a></li>
+                <li><a class="link-dark link-offset-2 link-underline link-underline-opacity-0 link-opacity-50-hover"
+                    target="_blank"  href="assets/HTML/css.html">CSS</a></li>
+                <li><a class="link-dark link-offset-2 link-underline link-underline-opacity-0 link-opacity-50-hover"
+                        href="#">Bootstrap</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row row2 justify-content-sm-center justify-content-center">
+        <div id="carouselExampleCaptions"
+            class="carousel col-sm-12 col-lg-6 col-xxl-7 slide border border-3 border-success rounded-5">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-5">
+
+                <div class="carousel-item active">
+                    <img src="assets/imgs/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5>Kitten Adoption Service</h5>
+                        <p>Using Simple HTML5 & CSS5 to accomplish simplistic design</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/imgs/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mine Sweeper</h5>
+                        <p>Classic Mine Sweeper running on JS and designed by HTML5 & CSS5</p>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/imgs/Screenshot 2023-09-21 200816.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
